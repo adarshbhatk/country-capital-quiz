@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 import pg from "pg";
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 3000;
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
